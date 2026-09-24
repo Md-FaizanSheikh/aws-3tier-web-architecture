@@ -153,6 +153,7 @@ The application remained available through the ALB while one application server 
 
 ## Project Structure
 
+```text
 aws-3tier-web-architecture/
 │
 ├── app/
@@ -172,6 +173,17 @@ aws-3tier-web-architecture/
 │   └── server.js
 │
 └── README.md
+```
+
+### Important Files
+
+| File | Purpose |
+|---|---|
+| `app/server.js` | Main Node.js application |
+| `app/public/style.css` | Static CSS asset stored in S3 |
+| `database/schema.sql` | Database schema and sample data |
+| `deployment/server.js` | Deployment copy of the application |
+| `.gitignore` | Prevents secrets and generated files from being committed |
 
 ## Technologies Used
 
