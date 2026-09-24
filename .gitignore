@@ -1,0 +1,6 @@
+node_modules/
+.env
+*.pem
+*.key
+deployment/node_modules/
+deployment/app.zip
