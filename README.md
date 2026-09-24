@@ -89,8 +89,10 @@ The web application is built using Node.js and Express.
 
 The application uses Amazon RDS MySQL with the following database:
 
+```text
 Database: companydb
 Table: employees
+```
 
 ## Deployment
 
