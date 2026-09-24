@@ -56,6 +56,10 @@ Amazon CloudWatch CPU alarms are configured for both application servers, and a 
                     |
              EC2 CPU Monitoring
 
+### Architecture Diagram
+
+![AWS 3-Tier Web Architecture](architecture/aws-3tier-architecture.png)
+
 ## Security
 
 The architecture follows a layered security model:
