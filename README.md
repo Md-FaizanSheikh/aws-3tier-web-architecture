@@ -98,6 +98,10 @@ Database: companydb
 Table: employees
 ```
 
+### Application Screenshot
+
+![AWS 3-Tier Web Application](screenshots/application.png)
+
 ## Deployment
 
 ### Local Development
